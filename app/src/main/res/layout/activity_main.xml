@@ -37,11 +37,16 @@
 
         </android.support.v4.view.ViewPager>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bimage"/>
+
     </LinearLayout>
 
     <fragment
         android:id="@+id/fragment_navifation_drawer"
-        android:name="com.itshiteshverma.hhh_material_test_01.NavigationDrawerFragment"
+        android:name="com.itshiteshverma.hhh_material_test_01.fragments.NavigationDrawerFragment"
         android:layout_width="280dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"

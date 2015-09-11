@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="72dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HITESH"
+        android:padding="5dp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="right"
+        android:id="@+id/title"
+        android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:id="@+id/moviePoster"
+        android:src="@drawable/aa"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+android:layout_marginTop="7dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATE"
+        android:textStyle="bold"
+        android:id="@+id/date"
+        android:layout_marginRight="10dp"
+        android:padding="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/title" />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="false"
+        style="@android:style/Widget.Holo.RatingBar.Small"
+        android:layout_alignBottom="@+id/moviePoster"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/ratingBar" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_alignBottom="@+id/ratingBar"
+        android:layout_height="10dp" />
+
+</RelativeLayout>

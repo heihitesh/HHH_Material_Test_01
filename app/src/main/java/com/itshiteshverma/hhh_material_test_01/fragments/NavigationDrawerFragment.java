@@ -1,4 +1,4 @@
-package com.itshiteshverma.hhh_material_test_01;
+package com.itshiteshverma.hhh_material_test_01.fragments;
 
 
 import android.content.Context;
@@ -13,6 +13,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import Adapter.HitAdapter;
+import com.itshiteshverma.hhh_material_test_01.Information;
+import com.itshiteshverma.hhh_material_test_01.R;
 
 import java.util.ArrayList;
 import java.util.List;

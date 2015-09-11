@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#5ebcee"
-    tools:context="com.itshiteshverma.hhh_material_test_01.NavigationDrawerFragment">
+    tools:context="com.itshiteshverma.hhh_material_test_01.fragments.NavigationDrawerFragment">
         <!-- TODO: Update blank fragment layout -->
         <LinearLayout
             android:id="@+id/ContainerLayout"

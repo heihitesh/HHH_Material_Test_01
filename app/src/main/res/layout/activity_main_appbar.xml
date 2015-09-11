@@ -29,7 +29,7 @@
             android:layout_gravity="start"
             app:layout="@layout/fragment_navigation_drawer"
             tools:layout="@layout/fragment_navigation_drawer"
-            android:name="com.itshiteshverma.hhh_material_test_01.NavigationDrawerFragment">
+            android:name="com.itshiteshverma.hhh_material_test_01.fragments.NavigationDrawerFragment">
 
         </fragment>
 

@@ -2,11 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.itshiteshverma.hhh_material_test_01">
 
-    <uses-permission android:name="ANDROID.PERMISSION.INTERNET"/>
+    <uses-permission android:name="ANDROID.PERMISSION.INTERNET" />
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="hi"
@@ -32,6 +33,39 @@
 
             </meta-data>
 
+        </activity>
+
+        <activity
+            android:name=".Vector.VectorDrawable"
+            android:label="hi">
+            <intent-filter>
+                <action android:name="com.itshiteshverma.hhh_material_test_01.Vector" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".TabViewLibrary"
+            android:label="hi">
+
+            <!-- Meta data helps the app to determin the Parent of the Class!-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity">
+
+            </meta-data>
+        </activity>
+
+        <activity
+            android:name=".TabViewLibraryWithImages"
+            android:label="hi">
+
+            <!-- Meta data helps the app to determin the Parent of the Class!-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity">
+
+            </meta-data>
         </activity>
     </application>
 
